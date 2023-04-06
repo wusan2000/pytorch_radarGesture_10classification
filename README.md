@@ -1,2 +1,3 @@
-# pytorch_classification_for_radarimg_with_dca1000_xwr16xx
+# pytorch_radarGesture_10classification
+
 雷达手势识别：使用dca1000和xwr16xx两块板子，得到的十个手势进行10分类
