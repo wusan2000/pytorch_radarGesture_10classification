@@ -1,6 +1,9 @@
 import os
-home = os.path.expanduser('~/rar/pytorch_classification-1/data_rar')
-## 预训练模型的存放位置
+# home = os.path.expanduser('~/rar/pytorch_classification-1/data_rar')
+import cfg
+home = cfg.home
+
+# 预训练模型的存放位置
 LOCAL_PRETRAINED = {
     'resnext101_32x8d': home + '/weights/resnext101_32x8.pth',
     'resnext101_32x16d': home + '/weights/resnext101_32x16.pth',
