@@ -1,6 +1,6 @@
 利用pytorch实现图像分类，其中包含的densenet，resnext，mobilenet，efficientnet等图像分类网络，可以根据需要再行利用torchvision扩展其他的分类算法
 
-##### github代码地址：[https://github.com/lxztju/pytorch_classification](https://github.com/lxztju/pytorch_classification)
+##### 本项目修改自github代码地址：[https://github.com/lxztju/pytorch_classification](https://github.com/lxztju/pytorch_classification)
 如果有用欢迎star
 利用pytorch实现图像分类，其中包含的densenet，resnext，mobilenet，efficientnet, resnet等图像分类网络，可以根据需要再行利用torchvision扩展其他的分类算法
 
