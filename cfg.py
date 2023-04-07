@@ -4,8 +4,8 @@
 # @author :lxztju
 # @github : https://github.com/lxztju
 import os
-# home = '/home/ubuntu/rar/pytorch_classification-1/pytorch_classification-1/'
-home = os.path.expanduser('~/rar/pytorch_classification-1')
+# home = '/home/ubuntu/Desktop/pytorch_radarGesture_10classification/'
+home = os.path.expanduser('~/pytorch_radarGesture_10classification')
 ##数据集的类别
 NUM_CLASSES = 10
 
@@ -24,7 +24,6 @@ RESUME_EPOCH = 0
 WEIGHT_DECAY = 5e-5
 MOMENTUM = 0.9
 # 初始学习率
-# LR = 2e-5 ACC max:0.32    epoch:6
 LR =3e-4
 
 
@@ -55,16 +54,13 @@ BASE = home + '/data_rar/'
 SAVE_FOLDER = BASE + 'weights/'
 
 #数据集的存放位置
-TRAIN_LABEL_DIR =BASE + 'train_7.txt'
+TRAIN_LABEL_DIR =BASE + 'train.txt'
 VAL_LABEL_DIR = BASE + 'val.txt'
-TEST_LABEL_DIR = BASE + 'test_2_new.txt'
+TEST_LABEL_DIR = BASE + 'test.txt'
 
 
 ##训练完成，权重文件的保存路径,默认保存在trained_model下
-# TRAINED_MODEL = BASE + 'weights/resnext101_32x32d/epoch_35.pth'
 TRAINED_MODEL = BASE + 'weights/best_4.3_epoch_20/epoch_20.pth'
-# densenet121:
-# epoch_60:11, epoch_75:13, epoch_126:11, epoch_135:12
 
 
 
